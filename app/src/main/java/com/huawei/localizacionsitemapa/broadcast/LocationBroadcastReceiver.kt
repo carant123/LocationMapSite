@@ -28,7 +28,7 @@ class LocationBroadcastReceiver : BroadcastReceiver()  {
                         Constante.RUNNING_CODE -> Constante.RUNNING_NAME
                         else -> Constante.EMPTY
                     }
-                    activityIdent.obtenerActividad(action + " " + actIdent.identificationActivity)
+
                 }
 
             }
