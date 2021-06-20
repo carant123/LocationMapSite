@@ -30,6 +30,8 @@ import java.util.*
 
 class MainActivity : BaseActivity(), SiteAdapter.SiteInterface {
 
+    // Proyecto principal
+
     private var mFusedLocationClient : FusedLocationProviderClient? = null
     private var searchService: SearchService? = null
     private var pendingInt: PendingIntent? = null
